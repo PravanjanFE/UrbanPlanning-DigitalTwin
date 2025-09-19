@@ -19,7 +19,7 @@ This project blends **live TomTom API data**, **custom 3D models**, and **verifi
 - [🌍 Overview](#-overview)  
 - [🔄 Workflow Summary](#-workflow-summary)  
 - [🎮 Interactive Features](#-interactive-features)
-- [🎮 Monitoring Panels](#-monitoring-panels)
+- [📊 Monitoring Panels](#-monitoring-panels)
 - [🎯 Technology Stack](#-technology-stack)
 - [✅ Outcome](#-outcome)  
 
@@ -64,6 +64,10 @@ It integrates:
 ---
 
 ## 📊 Monitoring Panels
+- **Air Quality Index Panel** → Tracks universal & local air quality with **visual heatmaps**  
+- **Pollen Index Panel** → Displays **live pollen levels** (tree, grass, weed) with severity indicators  
+- **Flood Zone Panel** → Visualizes **real-time flood impact zones** for proactive safety  
+
 ---
 
 ## 🎯 Technology Stack
