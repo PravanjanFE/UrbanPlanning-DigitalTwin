@@ -18,9 +18,9 @@ This project blends **live TomTom API data**, **custom 3D models**, and **verifi
 ## 📑 Contents
 - [🌍 Overview](#-overview)  
 - [🔄 Workflow Summary](#-workflow-summary)  
-- [🎮 Interactive Features](#-interactive-features)  
-- [📊 Monitoring Panels](#-monitoring-panels)   
-- [🎯 Technology Stack](#-technology-stack)  
+- [🎮 Interactive Features](#-interactive-features)
+- [🎮 Monitoring Panels](#-monitoring-panels)
+- [🎯 Technology Stack](#-technology-stack)
 - [✅ Outcome](#-outcome)  
 
 ---
@@ -40,7 +40,7 @@ It integrates:
 ## 🔄 Workflow Summary
 
 1. **Data Acquisition** → Gathered **live TomTom traffic data** & **GIS basemaps**; verified buildings via Google Street View & ground footage  
-2. **3D Modeling** → Created **architecturally accurate school buildings**; imported surrounding city blocks from GIS data  
+2. **3D Modeling** → Created **architecturally accurate buildings**; imported surrounding city blocks from GIS data  
 3. **GIS Pro** → Exported **georeferenced basemap layers** (buildings, roads, environmental textures)  
 4. **Unreal Engine Setup** →  
    - Initialized project from **Blank template** with GIS plugins  
@@ -48,8 +48,7 @@ It integrates:
    - Integrated **TomTom API** for live vehicle simulation  
    - Visualized congestion using **red-yellow-green spline gradients**  
 5. **Interactive Features** → Enabled **traffic simulation toggles**, layered urban visualization, & dynamic planning workflows  
-6. **UI & Development** → Built **interactive UI system** with user-friendly controls  
-7. **Monitoring Panels** → Integrated live dashboards for **environment, energy, and asset capacity**  
+6. **UI & Development** → Built **interactive UI system** with user-friendly controls 
 8. **Testing & Debugging** → Iterative testing to validate data accuracy and interaction fidelity (this is to be executed as per real time project deployment)
 9. **Deployment** → Packaged as a Windows build/Pixel Streaming, optimized for performance 
 
@@ -65,10 +64,6 @@ It integrates:
 ---
 
 ## 📊 Monitoring Panels
-- **Environment Panel** → Real-time display of temperature, humidity, airflow  
-- **Power & Energy Panel** → Tracks electrical usage linked to racks & PDUs  
-- **Asset & Capacity Panel** → Shows server utilization, rack space, and network traffic with **dynamic 3D highlights**  
-
 ---
 
 ## 🎯 Technology Stack
