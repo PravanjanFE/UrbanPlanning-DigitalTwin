@@ -2,7 +2,7 @@
 
 # 🚦 Urban Traffic Simulation and Planning
 
-Transforming urban traffic simulation and planning with a **real-time interactive platform** combining **ArcGIS, Unreal Engine, and TomTom traffic data**, the **CHS School – Urban Traffic Simulation & Planning Digital Twin** delivers **immersive geospatial accuracy** matched with **live traffic dynamics** for superior urban design insights.  
+Transforming urban traffic simulation and planning with a **real-time interactive platform** combining **GIS, Unreal Engine, and TomTom traffic data**, the **Urban Traffic Simulation & Planning Digital Twin** delivers **immersive geospatial accuracy** matched with **live traffic dynamics** for superior urban design insights.  
 
 What if every city street's flow and congestion could be **seen and analyzed in a vivid 3D environment**, aligned perfectly to **real-world coordinates**?  
 What if **real-time traffic data powered dynamic simulations** enabling planners and managers to make **smarter mobility decisions**?  
@@ -19,8 +19,7 @@ This project blends **live TomTom API data**, **custom 3D models**, and **verifi
 - [🌍 Overview](#-overview)  
 - [🔄 Workflow Summary](#-workflow-summary)  
 - [🎮 Interactive Features](#-interactive-features)  
-- [📊 Monitoring Panels](#-monitoring-panels)  
-- [🧪 Testing & Deployment](#-testing--deployment)  
+- [📊 Monitoring Panels](#-monitoring-panels)   
 - [🎯 Technology Stack](#-technology-stack)  
 - [✅ Outcome](#-outcome)  
 
@@ -31,7 +30,7 @@ This platform visualizes **vehicle movements, congestion heatmaps, and urban lay
 
 It integrates:  
 - **Custom 3D school buildings**  
-- **ArcGIS basemaps**  
+- **GIS basemaps**  
 - **Live traffic data**  
 
 ➡️ All displayed over a **geospatially accurate terrain** in **Unreal Engine**.  
@@ -40,18 +39,19 @@ It integrates:
 
 ## 🔄 Workflow Summary
 
-1. **Data Acquisition** → Gathered **live TomTom traffic data** & **ArcGIS basemaps**; verified buildings via Google Street View & ground footage  
-2. **3D Modeling** → Created **architecturally accurate school buildings**; imported surrounding city blocks from ArcGIS  
-3. **ArcGIS Pro** → Exported **georeferenced basemap layers** (buildings, roads, environmental textures)  
+1. **Data Acquisition** → Gathered **live TomTom traffic data** & **GIS basemaps**; verified buildings via Google Street View & ground footage  
+2. **3D Modeling** → Created **architecturally accurate school buildings**; imported surrounding city blocks from GIS data  
+3. **GIS Pro** → Exported **georeferenced basemap layers** (buildings, roads, environmental textures)  
 4. **Unreal Engine Setup** →  
-   - Initialized project from **Third Person template** with GIS plugins  
+   - Initialized project from **Blank template** with GIS plugins  
    - Created **roads with spline blueprints**  
    - Integrated **TomTom API** for live vehicle simulation  
    - Visualized congestion using **red-yellow-green spline gradients**  
 5. **Interactive Features** → Enabled **traffic simulation toggles**, layered urban visualization, & dynamic planning workflows  
 6. **UI & Development** → Built **interactive UI system** with user-friendly controls  
 7. **Monitoring Panels** → Integrated live dashboards for **environment, energy, and asset capacity**  
-8. **Testing & Deployment** → Debugged API integration, spline accuracy, terrain placement; packaged as interactive Unreal build  
+8. **Testing & Debugging** → Iterative testing to validate data accuracy and interaction fidelity (this is to be executed as per real time project deployment)
+9. **Deployment** → Packaged as a Windows build/Pixel Streaming, optimized for performance 
 
 ---
 
@@ -71,22 +71,16 @@ It integrates:
 
 ---
 
-## 🧪 Testing & Deployment
-- **Testing** → Focused on API integration, spline accuracy, terrain placement, interactivity, and performance  
-- **Deployment** → Packaged as **Windows executable**, with **VR support** for immersive exploration  
-
----
-
 ## 🎯 Technology Stack
 
 ### 🔹 Backend
 1. Real-time traffic data via **TomTom APIs**  
-2. Geospatial basemaps from **ArcGIS**  
+2. Geospatial basemaps from **GIS**  
 3. Terrain capture & refinement: **RenderDoc, Blender**  
 
 ### 🔹 Frontend
 1. **Unreal Engine** with GIS plugins (visualization & simulation engine)  
-2. **Blender, ArcGIS exports** (content creation pipeline)  
+2. **Blender, GIS exports** (content creation pipeline)  
 3. **Unreal Blueprints** (UI & interactivity)  
 
 ---
@@ -94,10 +88,22 @@ It integrates:
 ## ✅ Outcome
 The **Urban Traffic Simulation & Planning Digital Twin** combines:  
 - **Real-time TomTom traffic data**  
-- **Geospatial accuracy from ArcGIS**  
+- **Geospatial accuracy from GIS**  
 - **Immersive simulation via Unreal Engine**  
 
-The **backend** powers data acquisition & processing (TomTom API, ArcGIS, RenderDoc, Blender), while the **frontend** delivers **interactive 3D simulation, visualization, and UI**.  
+The **backend** powers data acquisition & processing (TomTom API, GIS, RenderDoc, Blender), while the **frontend** delivers **interactive 3D simulation, visualization, and UI**.  
 This system equips planners with **dynamic traffic insights**, enabling **better mobility decisions** and **smarter urban design workflows**.  
+
+---
+
+## 🔐 Data Privacy & Security
+Our **data handling approach** prioritizes **client data sovereignty** through:  
+- **On-premises deployment**  
+- **Comprehensive security controls**  
+- **Transparent operational practices**  
+
+All solutions operate **within client infrastructure**, ensuring:  
+- Complete **data ownership and control**  
+- Maintenance of **enterprise-grade security standards** throughout the **project lifecycle**
 
 ---
